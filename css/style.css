@@ -10,9 +10,17 @@
 .headerli a {
   display: block;
   color: black;
-  text-align: center;
+  text-align: right;
   padding: 5px 5px;
   text-decoration: none;
+  float: right;
+  padding-left: 20px;
+  border: 0;
+  margin: 0px;
+}
+
+#profilepic {
+  border-radius: 50%;
 }
 
 .headerli a:hover {
@@ -34,6 +42,7 @@
   margin: 0 auto;
   margin-top: -77px;
   width: 582px;
+  border-radius: 24px;
 }
 
 .search-area:hover {
@@ -43,8 +52,8 @@ box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
 .search {
   flex: 1;
   display: flex;
-  padding: 5px 8px 0 16px;
-  padding-left: 14px;
+  padding: 5px 8px 0 14px;
+  /* padding-left: 14px; */
 }
 
 .search-img {
@@ -69,6 +78,8 @@ box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
   display: flex;
   flex: 1;
   flex-wrap: wrap;
+  font-size: 14px;
+  color: #202124;
 }
 
 .input-area {
@@ -102,6 +113,9 @@ box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
   text-align: start;
   appearance: textfield;
   cursor: text;
+  background-color: transparent;
+  outline: none;
+  border: none;
 }
 
 .googlesearch {
